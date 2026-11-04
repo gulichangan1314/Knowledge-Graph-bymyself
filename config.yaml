@@ -1,0 +1,48 @@
+project:
+  name: EnterpriseKG
+  version: "1.0.0"
+  timezone: Asia/Shanghai
+
+paths:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  output_dir: data/output
+
+files:
+  companies: companies.csv
+  shareholders: shareholders.csv
+  patents: patents.csv
+  regions: regions.csv
+
+neo4j:
+  uri: bolt://127.0.0.1:7687
+  user: neo4j
+  password: "${NEO4J_PASSWORD:-EnterpriseKG2026}"
+  database: neo4j
+  connection_timeout: 3
+
+matching:
+  engine: rapidfuzz
+  auto_merge_threshold: 92
+  review_threshold: 78
+  confidence_high_threshold: 88
+  confidence_medium_threshold: 78
+  company_pair_min_score: 78
+  name_weight: 0.72
+  region_weight: 0.12
+  industry_weight: 0.08
+  legal_rep_weight: 0.08
+  prefer_old_name: true
+
+quality:
+  expected_counts:
+    companies: 8
+    shareholders: 10
+    patents: 8
+    regions: 3
+  percentage_tolerance: 0.01
+
+ui:
+  page_title: 企业知识图谱工作台
+  page_icon: "🕸️"
+  layout: wide

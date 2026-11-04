@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+EnterpriseKG/venv/
+.runtime/
+EnterpriseKG/.runtime/
+EnterpriseKG/local_neo4j/target/
+.pip-cache/
+.tmp/
+.tools/
+.uv-cache/
+.acl-recovery/
+.downloads/
+EnterpriseKG/pip-tmp/
+*.egg-info/
+.pytest_cache/
+
+# Environment & secrets
+.env
+
+# Neo4j runtime data
+.neo4j/
+
+# Generated runtime artifacts (raw CSV data is versioned on purpose)
+EnterpriseKG/data/processed/*.csv
+EnterpriseKG/data/processed/*.json
+EnterpriseKG/data/output/*.json
+EnterpriseKG/data/output/*.csv
+!EnterpriseKG/data/processed/.gitkeep
+!EnterpriseKG/data/output/.gitkeep
+
+# OS/IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

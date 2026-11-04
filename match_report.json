@@ -1,0 +1,1045 @@
+{
+  "generated_at": "2026-11-04T12:09:05+08:00",
+  "engine": "rapidfuzz 3.14.6",
+  "rapidfuzz_version": "3.14.6",
+  "thresholds": {
+    "auto_merge": 92,
+    "review": 78,
+    "confidence_high": 88,
+    "confidence_medium": 78
+  },
+  "canonical_companies": [
+    {
+      "company_id": "C001",
+      "name": "华夏天元科技有限公司",
+      "credit_code": "91110108MA01AB2C3D",
+      "legal_representative": "张伟",
+      "registered_capital": 5000.0,
+      "established_date": "2016-03-18",
+      "region_code": "110108",
+      "industry": "软件和信息技术服务业",
+      "status": "存续",
+      "old_name": "",
+      "source_file": "companies.csv",
+      "normalized_name": "华夏天元科技有限公司",
+      "normalized_old_name": "",
+      "credit_code_missing": false,
+      "credit_code_valid": true,
+      "credit_code_duplicate_count": 1,
+      "date_valid": true,
+      "region_exists": true,
+      "quality_flags": [],
+      "region_label": "北京市 / 北京市 / 海淀区",
+      "aliases": [],
+      "alias_names": [],
+      "source_company_ids": [
+        "C001"
+      ],
+      "merged_variant_count": 0,
+      "is_canonical": true
+    },
+    {
+      "company_id": "C002",
+      "name": "华夏天元科技（北京）有限公司",
+      "credit_code": "91110108MA01AB4E5F",
+      "legal_representative": "李强",
+      "registered_capital": 3000.0,
+      "established_date": "2018-07-09",
+      "region_code": "110108",
+      "industry": "软件和信息技术服务业",
+      "status": "存续",
+      "old_name": "",
+      "source_file": "companies.csv",
+      "normalized_name": "华夏天元科技(北京)有限公司",
+      "normalized_old_name": "",
+      "credit_code_missing": false,
+      "credit_code_valid": true,
+      "credit_code_duplicate_count": 1,
+      "date_valid": true,
+      "region_exists": true,
+      "quality_flags": [],
+      "region_label": "北京市 / 北京市 / 海淀区",
+      "aliases": [],
+      "alias_names": [],
+      "source_company_ids": [
+        "C002"
+      ],
+      "merged_variant_count": 0,
+      "is_canonical": true
+    },
+    {
+      "company_id": "C003",
+      "name": "星海智能装备股份有限公司",
+      "credit_code": "91320594MA02CD6G7H",
+      "legal_representative": "王海",
+      "registered_capital": 12000.0,
+      "established_date": "2012-05-21",
+      "region_code": "320594",
+      "industry": "智能装备制造",
+      "status": "存续",
+      "old_name": "星海智能装备有限公司",
+      "source_file": "companies.csv",
+      "normalized_name": "星海智能装备股份有限公司",
+      "normalized_old_name": "星海智能装备有限公司",
+      "credit_code_missing": false,
+      "credit_code_valid": true,
+      "credit_code_duplicate_count": 1,
+      "date_valid": true,
+      "region_exists": true,
+      "quality_flags": [],
+      "region_label": "江苏省 / 苏州市 / 苏州工业园区",
+      "aliases": [
+        {
+          "alias_id": "ALIAS-6C4C773906",
+          "canonical_company_id": "C003",
+          "canonical_name": "星海智能装备股份有限公司",
+          "name": "星海智能装备有限公司",
+          "normalized_name": "星海智能装备有限公司",
+          "alias_type": "old_name",
+          "source_company_id": "C003",
+          "credit_code": "91320594MA02CD6G7H",
+          "confidence": 98.0,
+          "method": "registered_old_name",
+          "decision": "auto_merge"
+        }
+      ],
+      "alias_names": [
+        "星海智能装备有限公司"
+      ],
+      "source_company_ids": [
+        "C003"
+      ],
+      "merged_variant_count": 0,
+      "is_canonical": true
+    },
+    {
+      "company_id": "C004",
+      "name": "星海智能装备（苏州）股份有限公司",
+      "credit_code": "91320594MA02CD8J9K",
+      "legal_representative": "陈晨",
+      "registered_capital": 8000.0,
+      "established_date": "2019-11-02",
+      "region_code": "320594",
+      "industry": "智能装备制造",
+      "status": "存续",
+      "old_name": "",
+      "source_file": "companies.csv",
+      "normalized_name": "星海智能装备(苏州)股份有限公司",
+      "normalized_old_name": "",
+      "credit_code_missing": false,
+      "credit_code_valid": true,
+      "credit_code_duplicate_count": 1,
+      "date_valid": true,
+      "region_exists": true,
+      "quality_flags": [],
+      "region_label": "江苏省 / 苏州市 / 苏州工业园区",
+      "aliases": [],
+      "alias_names": [],
+      "source_company_ids": [
+        "C004"
+      ],
+      "merged_variant_count": 0,
+      "is_canonical": true
+    },
+    {
+      "company_id": "C005",
+      "name": "蓝海数据服务有限公司",
+      "credit_code": "91440300MA5FQ1L2MN",
+      "legal_representative": "刘洋",
+      "registered_capital": 6000.0,
+      "established_date": "2015-09-14",
+      "region_code": "440305",
+      "industry": "数据服务",
+      "status": "存续",
+      "old_name": "",
+      "source_file": "companies.csv",
+      "normalized_name": "蓝海数据服务有限公司",
+      "normalized_old_name": "",
+      "credit_code_missing": false,
+      "credit_code_valid": true,
+      "credit_code_duplicate_count": 2,
+      "date_valid": true,
+      "region_exists": true,
+      "quality_flags": [
+        "duplicate_credit_code"
+      ],
+      "region_label": "广东省 / 深圳市 / 南山区",
+      "aliases": [
+        {
+          "alias_id": "ALIAS-8B9BBC6FB3",
+          "canonical_company_id": "C005",
+          "canonical_name": "蓝海数据服务有限公司",
+          "name": "蓝海数据服务（深圳）有限公司",
+          "normalized_name": "蓝海数据服务(深圳)有限公司",
+          "alias_type": "same_code_variant",
+          "source_company_id": "C006",
+          "credit_code": "91440300MA5FQ1L2MN",
+          "confidence": 100.0,
+          "method": "same_credit_code",
+          "decision": "auto_merge"
+        }
+      ],
+      "alias_names": [
+        "蓝海数据服务（深圳）有限公司"
+      ],
+      "source_company_ids": [
+        "C005",
+        "C006"
+      ],
+      "merged_variant_count": 1,
+      "is_canonical": true
+    },
+    {
+      "company_id": "C007",
+      "name": "云岭新能源（深圳）集团有限公司",
+      "credit_code": "91440300MA5FQ3N4PQ",
+      "legal_representative": "周明",
+      "registered_capital": 10000.0,
+      "established_date": "2014-06-30",
+      "region_code": "440305",
+      "industry": "新能源",
+      "status": "存续",
+      "old_name": "云岭新能源有限公司",
+      "source_file": "companies.csv",
+      "normalized_name": "云岭新能源(深圳)集团有限公司",
+      "normalized_old_name": "云岭新能源有限公司",
+      "credit_code_missing": false,
+      "credit_code_valid": true,
+      "credit_code_duplicate_count": 1,
+      "date_valid": true,
+      "region_exists": true,
+      "quality_flags": [],
+      "region_label": "广东省 / 深圳市 / 南山区",
+      "aliases": [
+        {
+          "alias_id": "ALIAS-871121ED8F",
+          "canonical_company_id": "C007",
+          "canonical_name": "云岭新能源（深圳）集团有限公司",
+          "name": "云岭新能源有限公司",
+          "normalized_name": "云岭新能源有限公司",
+          "alias_type": "old_name",
+          "source_company_id": "C007",
+          "credit_code": "91440300MA5FQ3N4PQ",
+          "confidence": 98.0,
+          "method": "registered_old_name",
+          "decision": "auto_merge"
+        }
+      ],
+      "alias_names": [
+        "云岭新能源有限公司"
+      ],
+      "source_company_ids": [
+        "C007"
+      ],
+      "merged_variant_count": 0,
+      "is_canonical": true
+    },
+    {
+      "company_id": "C008",
+      "name": "云岭新能源（深圳）有限公司",
+      "credit_code": "",
+      "legal_representative": "周明",
+      "registered_capital": 8000.0,
+      "established_date": "2021-01-12",
+      "region_code": "440305",
+      "industry": "新能源",
+      "status": "存续",
+      "old_name": "",
+      "source_file": "companies.csv",
+      "normalized_name": "云岭新能源(深圳)有限公司",
+      "normalized_old_name": "",
+      "credit_code_missing": true,
+      "credit_code_valid": false,
+      "credit_code_duplicate_count": 0,
+      "date_valid": true,
+      "region_exists": true,
+      "quality_flags": [
+        "missing_credit_code"
+      ],
+      "region_label": "广东省 / 深圳市 / 南山区",
+      "aliases": [],
+      "alias_names": [],
+      "source_company_ids": [
+        "C008"
+      ],
+      "merged_variant_count": 0,
+      "is_canonical": true
+    }
+  ],
+  "aliases": [
+    {
+      "alias_id": "ALIAS-6C4C773906",
+      "canonical_company_id": "C003",
+      "canonical_name": "星海智能装备股份有限公司",
+      "name": "星海智能装备有限公司",
+      "normalized_name": "星海智能装备有限公司",
+      "alias_type": "old_name",
+      "source_company_id": "C003",
+      "credit_code": "91320594MA02CD6G7H",
+      "confidence": 98.0,
+      "method": "registered_old_name",
+      "decision": "auto_merge"
+    },
+    {
+      "alias_id": "ALIAS-8B9BBC6FB3",
+      "canonical_company_id": "C005",
+      "canonical_name": "蓝海数据服务有限公司",
+      "name": "蓝海数据服务（深圳）有限公司",
+      "normalized_name": "蓝海数据服务(深圳)有限公司",
+      "alias_type": "same_code_variant",
+      "source_company_id": "C006",
+      "credit_code": "91440300MA5FQ1L2MN",
+      "confidence": 100.0,
+      "method": "same_credit_code",
+      "decision": "auto_merge"
+    },
+    {
+      "alias_id": "ALIAS-871121ED8F",
+      "canonical_company_id": "C007",
+      "canonical_name": "云岭新能源（深圳）集团有限公司",
+      "name": "云岭新能源有限公司",
+      "normalized_name": "云岭新能源有限公司",
+      "alias_type": "old_name",
+      "source_company_id": "C007",
+      "credit_code": "91440300MA5FQ3N4PQ",
+      "confidence": 98.0,
+      "method": "registered_old_name",
+      "decision": "auto_merge"
+    }
+  ],
+  "company_pairs": [
+    {
+      "candidate_id": "PAIR-C007-C008",
+      "candidate_type": "company_pair",
+      "left_id": "C007",
+      "left_name": "云岭新能源（深圳）集团有限公司",
+      "left_credit_code": "91440300MA5FQ3N4PQ",
+      "right_id": "C008",
+      "right_name": "云岭新能源（深圳）有限公司",
+      "right_credit_code": "",
+      "name_score": 92.86,
+      "context_score": 100.0,
+      "score": 94.86,
+      "confidence_tier": "high",
+      "decision": "review",
+      "method": "context_weighted_rapidfuzz",
+      "conflicts": [
+        "missing_credit_code"
+      ],
+      "reasons": [
+        "一方缺失统一社会信用代码，最高只能进入人工复核",
+        "法定代表人也相同，需要排查母子公司或重复登记",
+        "登记地区一致",
+        "行业一致"
+      ],
+      "source_type": "company_record",
+      "source_id": "C007|C008",
+      "canonical_id": ""
+    },
+    {
+      "candidate_id": "PAIR-C003-C004",
+      "candidate_type": "company_pair",
+      "left_id": "C003",
+      "left_name": "星海智能装备股份有限公司",
+      "left_credit_code": "91320594MA02CD6G7H",
+      "right_id": "C004",
+      "right_name": "星海智能装备（苏州）股份有限公司",
+      "right_credit_code": "91320594MA02CD8J9K",
+      "name_score": 85.71,
+      "context_score": 71.43,
+      "score": 81.71,
+      "confidence_tier": "medium",
+      "decision": "review",
+      "method": "context_weighted_rapidfuzz",
+      "conflicts": [
+        "different_credit_code"
+      ],
+      "reasons": [
+        "统一社会信用代码不一致（91320594MA02CD6G7H ≠ 91320594MA02CD8J9K），禁止自动合并",
+        "登记地区一致",
+        "行业一致"
+      ],
+      "source_type": "company_record",
+      "source_id": "C003|C004",
+      "canonical_id": ""
+    },
+    {
+      "candidate_id": "PAIR-C001-C002",
+      "candidate_type": "company_pair",
+      "left_id": "C001",
+      "left_name": "华夏天元科技有限公司",
+      "left_credit_code": "91110108MA01AB2C3D",
+      "right_id": "C002",
+      "right_name": "华夏天元科技（北京）有限公司",
+      "right_credit_code": "91110108MA01AB4E5F",
+      "name_score": 83.33,
+      "context_score": 71.43,
+      "score": 80.0,
+      "confidence_tier": "medium",
+      "decision": "review",
+      "method": "context_weighted_rapidfuzz",
+      "conflicts": [
+        "different_credit_code"
+      ],
+      "reasons": [
+        "统一社会信用代码不一致（91110108MA01AB2C3D ≠ 91110108MA01AB4E5F），禁止自动合并",
+        "登记地区一致",
+        "行业一致"
+      ],
+      "source_type": "company_record",
+      "source_id": "C001|C002",
+      "canonical_id": ""
+    }
+  ],
+  "mention_matches": [
+    {
+      "candidate_id": "MM-MSH-S001-TARGET",
+      "candidate_type": "mention",
+      "left_id": "MSH-S001-TARGET",
+      "left_name": "华夏天元科技有限公司",
+      "left_credit_code": "",
+      "right_id": "C001",
+      "right_name": "华夏天元科技有限公司",
+      "right_credit_code": "91110108MA01AB2C3D",
+      "name_score": 98.0,
+      "context_score": 0.0,
+      "score": 98.0,
+      "confidence_tier": "high",
+      "decision": "auto_merge",
+      "method": "exact_name",
+      "conflicts": [],
+      "reasons": [
+        "企业名称标准化后完全一致"
+      ],
+      "source_type": "shareholder_target",
+      "source_id": "S001",
+      "canonical_id": "C001"
+    },
+    {
+      "candidate_id": "MM-MSH-S002-TARGET",
+      "candidate_type": "mention",
+      "left_id": "MSH-S002-TARGET",
+      "left_name": "华夏天元科技有限公司",
+      "left_credit_code": "",
+      "right_id": "C001",
+      "right_name": "华夏天元科技有限公司",
+      "right_credit_code": "91110108MA01AB2C3D",
+      "name_score": 98.0,
+      "context_score": 0.0,
+      "score": 98.0,
+      "confidence_tier": "high",
+      "decision": "auto_merge",
+      "method": "exact_name",
+      "conflicts": [],
+      "reasons": [
+        "企业名称标准化后完全一致"
+      ],
+      "source_type": "shareholder_target",
+      "source_id": "S002",
+      "canonical_id": "C001"
+    },
+    {
+      "candidate_id": "MM-MSH-S003-TARGET",
+      "candidate_type": "mention",
+      "left_id": "MSH-S003-TARGET",
+      "left_name": "华夏天元科技有限公司",
+      "left_credit_code": "",
+      "right_id": "C001",
+      "right_name": "华夏天元科技有限公司",
+      "right_credit_code": "91110108MA01AB2C3D",
+      "name_score": 98.0,
+      "context_score": 0.0,
+      "score": 98.0,
+      "confidence_tier": "high",
+      "decision": "auto_merge",
+      "method": "exact_name",
+      "conflicts": [],
+      "reasons": [
+        "企业名称标准化后完全一致"
+      ],
+      "source_type": "shareholder_target",
+      "source_id": "S003",
+      "canonical_id": "C001"
+    },
+    {
+      "candidate_id": "MM-MSH-S004-TARGET",
+      "candidate_type": "mention",
+      "left_id": "MSH-S004-TARGET",
+      "left_name": "华夏天元科技（北京）有限公司",
+      "left_credit_code": "",
+      "right_id": "C002",
+      "right_name": "华夏天元科技（北京）有限公司",
+      "right_credit_code": "91110108MA01AB4E5F",
+      "name_score": 98.0,
+      "context_score": 0.0,
+      "score": 98.0,
+      "confidence_tier": "high",
+      "decision": "auto_merge",
+      "method": "exact_name",
+      "conflicts": [],
+      "reasons": [
+        "企业名称标准化后完全一致"
+      ],
+      "source_type": "shareholder_target",
+      "source_id": "S004",
+      "canonical_id": "C002"
+    },
+    {
+      "candidate_id": "MM-MSH-S005-TARGET",
+      "candidate_type": "mention",
+      "left_id": "MSH-S005-TARGET",
+      "left_name": "星海智能装备股份有限公司",
+      "left_credit_code": "",
+      "right_id": "C003",
+      "right_name": "星海智能装备股份有限公司",
+      "right_credit_code": "91320594MA02CD6G7H",
+      "name_score": 98.0,
+      "context_score": 0.0,
+      "score": 98.0,
+      "confidence_tier": "high",
+      "decision": "auto_merge",
+      "method": "exact_name",
+      "conflicts": [],
+      "reasons": [
+        "企业名称标准化后完全一致"
+      ],
+      "source_type": "shareholder_target",
+      "source_id": "S005",
+      "canonical_id": "C003"
+    },
+    {
+      "candidate_id": "MM-MSH-S006-TARGET",
+      "candidate_type": "mention",
+      "left_id": "MSH-S006-TARGET",
+      "left_name": "星海智能装备股份有限公司",
+      "left_credit_code": "",
+      "right_id": "C003",
+      "right_name": "星海智能装备股份有限公司",
+      "right_credit_code": "91320594MA02CD6G7H",
+      "name_score": 98.0,
+      "context_score": 0.0,
+      "score": 98.0,
+      "confidence_tier": "high",
+      "decision": "auto_merge",
+      "method": "exact_name",
+      "conflicts": [],
+      "reasons": [
+        "企业名称标准化后完全一致"
+      ],
+      "source_type": "shareholder_target",
+      "source_id": "S006",
+      "canonical_id": "C003"
+    },
+    {
+      "candidate_id": "MM-MSH-S007-TARGET",
+      "candidate_type": "mention",
+      "left_id": "MSH-S007-TARGET",
+      "left_name": "蓝海数据服务有限公司",
+      "left_credit_code": "",
+      "right_id": "C005",
+      "right_name": "蓝海数据服务有限公司",
+      "right_credit_code": "91440300MA5FQ1L2MN",
+      "name_score": 98.0,
+      "context_score": 0.0,
+      "score": 98.0,
+      "confidence_tier": "high",
+      "decision": "auto_merge",
+      "method": "exact_name",
+      "conflicts": [],
+      "reasons": [
+        "企业名称标准化后完全一致"
+      ],
+      "source_type": "shareholder_target",
+      "source_id": "S007",
+      "canonical_id": "C005"
+    },
+    {
+      "candidate_id": "MM-MSH-S008-TARGET",
+      "candidate_type": "mention",
+      "left_id": "MSH-S008-TARGET",
+      "left_name": "蓝海数据服务（深圳）有限公司",
+      "left_credit_code": "",
+      "right_id": "C005",
+      "right_name": "蓝海数据服务有限公司",
+      "right_credit_code": "91440300MA5FQ1L2MN",
+      "name_score": 98.0,
+      "context_score": 0.0,
+      "score": 98.0,
+      "confidence_tier": "high",
+      "decision": "auto_merge",
+      "method": "same_code_variant",
+      "conflicts": [],
+      "reasons": [
+        "命中同一信用代码下的名称变体"
+      ],
+      "source_type": "shareholder_target",
+      "source_id": "S008",
+      "canonical_id": "C005"
+    },
+    {
+      "candidate_id": "MM-MSH-S009-TARGET",
+      "candidate_type": "mention",
+      "left_id": "MSH-S009-TARGET",
+      "left_name": "云岭新能源（深圳）集团有限公司",
+      "left_credit_code": "",
+      "right_id": "C007",
+      "right_name": "云岭新能源（深圳）集团有限公司",
+      "right_credit_code": "91440300MA5FQ3N4PQ",
+      "name_score": 98.0,
+      "context_score": 0.0,
+      "score": 98.0,
+      "confidence_tier": "high",
+      "decision": "auto_merge",
+      "method": "exact_name",
+      "conflicts": [],
+      "reasons": [
+        "企业名称标准化后完全一致"
+      ],
+      "source_type": "shareholder_target",
+      "source_id": "S009",
+      "canonical_id": "C007"
+    },
+    {
+      "candidate_id": "MM-MSH-S010-TARGET",
+      "candidate_type": "mention",
+      "left_id": "MSH-S010-TARGET",
+      "left_name": "云岭新能源（深圳）集团有限公司",
+      "left_credit_code": "",
+      "right_id": "C007",
+      "right_name": "云岭新能源（深圳）集团有限公司",
+      "right_credit_code": "91440300MA5FQ3N4PQ",
+      "name_score": 98.0,
+      "context_score": 0.0,
+      "score": 98.0,
+      "confidence_tier": "high",
+      "decision": "auto_merge",
+      "method": "exact_name",
+      "conflicts": [],
+      "reasons": [
+        "企业名称标准化后完全一致"
+      ],
+      "source_type": "shareholder_target",
+      "source_id": "S010",
+      "canonical_id": "C007"
+    },
+    {
+      "candidate_id": "MM-MPAT-P001",
+      "candidate_type": "mention",
+      "left_id": "MPAT-P001",
+      "left_name": "华夏天元科技有限公司",
+      "left_credit_code": "",
+      "right_id": "C001",
+      "right_name": "华夏天元科技有限公司",
+      "right_credit_code": "91110108MA01AB2C3D",
+      "name_score": 98.0,
+      "context_score": 0.0,
+      "score": 98.0,
+      "confidence_tier": "high",
+      "decision": "auto_merge",
+      "method": "exact_name",
+      "conflicts": [],
+      "reasons": [
+        "企业名称标准化后完全一致"
+      ],
+      "source_type": "patent_applicant",
+      "source_id": "P001",
+      "canonical_id": "C001"
+    },
+    {
+      "candidate_id": "MM-MPAT-P002",
+      "candidate_type": "mention",
+      "left_id": "MPAT-P002",
+      "left_name": "华夏天元科技（北京）有限公司",
+      "left_credit_code": "",
+      "right_id": "C002",
+      "right_name": "华夏天元科技（北京）有限公司",
+      "right_credit_code": "91110108MA01AB4E5F",
+      "name_score": 98.0,
+      "context_score": 0.0,
+      "score": 98.0,
+      "confidence_tier": "high",
+      "decision": "auto_merge",
+      "method": "exact_name",
+      "conflicts": [],
+      "reasons": [
+        "企业名称标准化后完全一致"
+      ],
+      "source_type": "patent_applicant",
+      "source_id": "P002",
+      "canonical_id": "C002"
+    },
+    {
+      "candidate_id": "MM-MPAT-P003",
+      "candidate_type": "mention",
+      "left_id": "MPAT-P003",
+      "left_name": "星海智能装备有限公司",
+      "left_credit_code": "",
+      "right_id": "C003",
+      "right_name": "星海智能装备股份有限公司",
+      "right_credit_code": "91320594MA02CD6G7H",
+      "name_score": 98.0,
+      "context_score": 0.0,
+      "score": 98.0,
+      "confidence_tier": "high",
+      "decision": "auto_merge",
+      "method": "registered_old_name",
+      "conflicts": [],
+      "reasons": [
+        "命中企业登记过的曾用名"
+      ],
+      "source_type": "patent_applicant",
+      "source_id": "P003",
+      "canonical_id": "C003"
+    },
+    {
+      "candidate_id": "MM-MPAT-P004",
+      "candidate_type": "mention",
+      "left_id": "MPAT-P004",
+      "left_name": "星海智能装备（苏州）股份有限公司",
+      "left_credit_code": "",
+      "right_id": "C004",
+      "right_name": "星海智能装备（苏州）股份有限公司",
+      "right_credit_code": "91320594MA02CD8J9K",
+      "name_score": 98.0,
+      "context_score": 0.0,
+      "score": 98.0,
+      "confidence_tier": "high",
+      "decision": "auto_merge",
+      "method": "exact_name",
+      "conflicts": [],
+      "reasons": [
+        "企业名称标准化后完全一致"
+      ],
+      "source_type": "patent_applicant",
+      "source_id": "P004",
+      "canonical_id": "C004"
+    },
+    {
+      "candidate_id": "MM-MPAT-P005",
+      "candidate_type": "mention",
+      "left_id": "MPAT-P005",
+      "left_name": "蓝海数据服务（深圳）有限公司",
+      "left_credit_code": "",
+      "right_id": "C005",
+      "right_name": "蓝海数据服务有限公司",
+      "right_credit_code": "91440300MA5FQ1L2MN",
+      "name_score": 98.0,
+      "context_score": 0.0,
+      "score": 98.0,
+      "confidence_tier": "high",
+      "decision": "auto_merge",
+      "method": "same_code_variant",
+      "conflicts": [],
+      "reasons": [
+        "命中同一信用代码下的名称变体"
+      ],
+      "source_type": "patent_applicant",
+      "source_id": "P005",
+      "canonical_id": "C005"
+    },
+    {
+      "candidate_id": "MM-MPAT-P006",
+      "candidate_type": "mention",
+      "left_id": "MPAT-P006",
+      "left_name": "蓝海数据服务有限公司",
+      "left_credit_code": "",
+      "right_id": "C005",
+      "right_name": "蓝海数据服务有限公司",
+      "right_credit_code": "91440300MA5FQ1L2MN",
+      "name_score": 98.0,
+      "context_score": 0.0,
+      "score": 98.0,
+      "confidence_tier": "high",
+      "decision": "auto_merge",
+      "method": "exact_name",
+      "conflicts": [],
+      "reasons": [
+        "企业名称标准化后完全一致"
+      ],
+      "source_type": "patent_applicant",
+      "source_id": "P006",
+      "canonical_id": "C005"
+    },
+    {
+      "candidate_id": "MM-MPAT-P007",
+      "candidate_type": "mention",
+      "left_id": "MPAT-P007",
+      "left_name": "云岭新能源有限公司",
+      "left_credit_code": "",
+      "right_id": "C007",
+      "right_name": "云岭新能源（深圳）集团有限公司",
+      "right_credit_code": "91440300MA5FQ3N4PQ",
+      "name_score": 98.0,
+      "context_score": 0.0,
+      "score": 98.0,
+      "confidence_tier": "high",
+      "decision": "auto_merge",
+      "method": "registered_old_name",
+      "conflicts": [],
+      "reasons": [
+        "命中企业登记过的曾用名"
+      ],
+      "source_type": "patent_applicant",
+      "source_id": "P007",
+      "canonical_id": "C007"
+    },
+    {
+      "candidate_id": "MM-MPAT-P008",
+      "candidate_type": "mention",
+      "left_id": "MPAT-P008",
+      "left_name": "云岭新能源（深圳）有限公司",
+      "left_credit_code": "",
+      "right_id": "C008",
+      "right_name": "云岭新能源（深圳）有限公司",
+      "right_credit_code": "",
+      "name_score": 91.9,
+      "context_score": 0.0,
+      "score": 91.9,
+      "confidence_tier": "high",
+      "decision": "review",
+      "method": "exact_name",
+      "conflicts": [
+        "missing_credit_code"
+      ],
+      "reasons": [
+        "企业名称标准化后完全一致",
+        "目标企业缺失统一社会信用代码，只能进入人工复核"
+      ],
+      "source_type": "patent_applicant",
+      "source_id": "P008",
+      "canonical_id": "C008"
+    }
+  ],
+  "resolved_mentions": [
+    {
+      "mention_id": "MSH-S001-TARGET",
+      "source_type": "shareholder_target",
+      "source_id": "S001",
+      "name": "华夏天元科技有限公司",
+      "company_id": "C001",
+      "company_name": "华夏天元科技有限公司",
+      "score": 98.0,
+      "method": "exact_name"
+    },
+    {
+      "mention_id": "MSH-S002-TARGET",
+      "source_type": "shareholder_target",
+      "source_id": "S002",
+      "name": "华夏天元科技有限公司",
+      "company_id": "C001",
+      "company_name": "华夏天元科技有限公司",
+      "score": 98.0,
+      "method": "exact_name"
+    },
+    {
+      "mention_id": "MSH-S003-TARGET",
+      "source_type": "shareholder_target",
+      "source_id": "S003",
+      "name": "华夏天元科技有限公司",
+      "company_id": "C001",
+      "company_name": "华夏天元科技有限公司",
+      "score": 98.0,
+      "method": "exact_name"
+    },
+    {
+      "mention_id": "MSH-S004-TARGET",
+      "source_type": "shareholder_target",
+      "source_id": "S004",
+      "name": "华夏天元科技（北京）有限公司",
+      "company_id": "C002",
+      "company_name": "华夏天元科技（北京）有限公司",
+      "score": 98.0,
+      "method": "exact_name"
+    },
+    {
+      "mention_id": "MSH-S005-TARGET",
+      "source_type": "shareholder_target",
+      "source_id": "S005",
+      "name": "星海智能装备股份有限公司",
+      "company_id": "C003",
+      "company_name": "星海智能装备股份有限公司",
+      "score": 98.0,
+      "method": "exact_name"
+    },
+    {
+      "mention_id": "MSH-S006-TARGET",
+      "source_type": "shareholder_target",
+      "source_id": "S006",
+      "name": "星海智能装备股份有限公司",
+      "company_id": "C003",
+      "company_name": "星海智能装备股份有限公司",
+      "score": 98.0,
+      "method": "exact_name"
+    },
+    {
+      "mention_id": "MSH-S007-TARGET",
+      "source_type": "shareholder_target",
+      "source_id": "S007",
+      "name": "蓝海数据服务有限公司",
+      "company_id": "C005",
+      "company_name": "蓝海数据服务有限公司",
+      "score": 98.0,
+      "method": "exact_name"
+    },
+    {
+      "mention_id": "MSH-S008-TARGET",
+      "source_type": "shareholder_target",
+      "source_id": "S008",
+      "name": "蓝海数据服务（深圳）有限公司",
+      "company_id": "C005",
+      "company_name": "蓝海数据服务有限公司",
+      "score": 98.0,
+      "method": "same_code_variant"
+    },
+    {
+      "mention_id": "MSH-S009-TARGET",
+      "source_type": "shareholder_target",
+      "source_id": "S009",
+      "name": "云岭新能源（深圳）集团有限公司",
+      "company_id": "C007",
+      "company_name": "云岭新能源（深圳）集团有限公司",
+      "score": 98.0,
+      "method": "exact_name"
+    },
+    {
+      "mention_id": "MSH-S010-TARGET",
+      "source_type": "shareholder_target",
+      "source_id": "S010",
+      "name": "云岭新能源（深圳）集团有限公司",
+      "company_id": "C007",
+      "company_name": "云岭新能源（深圳）集团有限公司",
+      "score": 98.0,
+      "method": "exact_name"
+    },
+    {
+      "mention_id": "MPAT-P001",
+      "source_type": "patent_applicant",
+      "source_id": "P001",
+      "name": "华夏天元科技有限公司",
+      "company_id": "C001",
+      "company_name": "华夏天元科技有限公司",
+      "score": 98.0,
+      "method": "exact_name"
+    },
+    {
+      "mention_id": "MPAT-P002",
+      "source_type": "patent_applicant",
+      "source_id": "P002",
+      "name": "华夏天元科技（北京）有限公司",
+      "company_id": "C002",
+      "company_name": "华夏天元科技（北京）有限公司",
+      "score": 98.0,
+      "method": "exact_name"
+    },
+    {
+      "mention_id": "MPAT-P003",
+      "source_type": "patent_applicant",
+      "source_id": "P003",
+      "name": "星海智能装备有限公司",
+      "company_id": "C003",
+      "company_name": "星海智能装备股份有限公司",
+      "score": 98.0,
+      "method": "registered_old_name"
+    },
+    {
+      "mention_id": "MPAT-P004",
+      "source_type": "patent_applicant",
+      "source_id": "P004",
+      "name": "星海智能装备（苏州）股份有限公司",
+      "company_id": "C004",
+      "company_name": "星海智能装备（苏州）股份有限公司",
+      "score": 98.0,
+      "method": "exact_name"
+    },
+    {
+      "mention_id": "MPAT-P005",
+      "source_type": "patent_applicant",
+      "source_id": "P005",
+      "name": "蓝海数据服务（深圳）有限公司",
+      "company_id": "C005",
+      "company_name": "蓝海数据服务有限公司",
+      "score": 98.0,
+      "method": "same_code_variant"
+    },
+    {
+      "mention_id": "MPAT-P006",
+      "source_type": "patent_applicant",
+      "source_id": "P006",
+      "name": "蓝海数据服务有限公司",
+      "company_id": "C005",
+      "company_name": "蓝海数据服务有限公司",
+      "score": 98.0,
+      "method": "exact_name"
+    },
+    {
+      "mention_id": "MPAT-P007",
+      "source_type": "patent_applicant",
+      "source_id": "P007",
+      "name": "云岭新能源有限公司",
+      "company_id": "C007",
+      "company_name": "云岭新能源（深圳）集团有限公司",
+      "score": 98.0,
+      "method": "registered_old_name"
+    }
+  ],
+  "review_mentions": [
+    {
+      "mention_id": "MPAT-P008",
+      "source_type": "patent_applicant",
+      "source_id": "P008",
+      "name": "云岭新能源（深圳）有限公司",
+      "company_id": "C008",
+      "company_name": "云岭新能源（深圳）有限公司",
+      "score": 91.9,
+      "method": "exact_name",
+      "conflicts": [
+        "missing_credit_code"
+      ],
+      "reasons": [
+        "企业名称标准化后完全一致",
+        "目标企业缺失统一社会信用代码，只能进入人工复核"
+      ]
+    }
+  ],
+  "unresolved_mentions": [
+    {
+      "mention_id": "MSH-S003-ORG",
+      "source_type": "shareholder_org",
+      "source_id": "S003",
+      "name": "北京创新引擎投资有限公司",
+      "best_score": 46.15
+    },
+    {
+      "mention_id": "MSH-S006-ORG",
+      "source_type": "shareholder_org",
+      "source_id": "S006",
+      "name": "苏州工业园区产业投资基金有限公司",
+      "best_score": 51.43
+    },
+    {
+      "mention_id": "MSH-S008-ORG",
+      "source_type": "shareholder_org",
+      "source_id": "S008",
+      "name": "深圳前海数字资本有限公司",
+      "best_score": 54.55
+    },
+    {
+      "mention_id": "MSH-S010-ORG",
+      "source_type": "shareholder_org",
+      "source_id": "S010",
+      "name": "华南绿色能源投资有限公司",
+      "best_score": 48.0
+    }
+  ],
+  "stats": {
+    "raw_company_records": 8,
+    "canonical_companies": 7,
+    "merged_variant_records": 1,
+    "distinct_credit_code_groups": 6,
+    "aliases": 3,
+    "suspicious_company_pairs": 3,
+    "auto_merged_mentions": 17,
+    "review_mentions": 1,
+    "unresolved_mentions": 4
+  }
+}

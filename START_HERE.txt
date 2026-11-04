@@ -1,0 +1,9 @@
+﻿START HERE
+==========
+1) Double-click install_python.bat
+2) Double-click start_neo4j.bat  (no Docker required; wait for LOCAL_NEO4J_READY)
+3) Double-click run_pipeline.bat
+4) Double-click start_app.bat     (http://127.0.0.1:8501)
+
+Detailed guide: 交付说明.md and README.md
+The venv folder is intentionally not included. install_python.bat rebuilds it.

@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-11-04T12:09:05+08:00",
+  "project": "EnterpriseKG",
+  "version": "1.0.0",
+  "counts": {
+    "raw": {
+      "companies": 8,
+      "shareholders": 10,
+      "patents": 8,
+      "regions": 3
+    },
+    "canonical_companies": 7,
+    "aliases": 3,
+    "company_pairs": 3,
+    "mention_matches": 18
+  },
+  "match_engine": "rapidfuzz 3.14.6",
+  "written": {
+    "companies": "C:\\Users\\沈少锋\\Documents\\deepseek-harness\\default-workspace\\EnterpriseKG\\data\\processed\\companies_clean.csv",
+    "shareholders": "C:\\Users\\沈少锋\\Documents\\deepseek-harness\\default-workspace\\EnterpriseKG\\data\\processed\\shareholders_clean.csv",
+    "patents": "C:\\Users\\沈少锋\\Documents\\deepseek-harness\\default-workspace\\EnterpriseKG\\data\\processed\\patents_clean.csv",
+    "regions": "C:\\Users\\沈少锋\\Documents\\deepseek-harness\\default-workspace\\EnterpriseKG\\data\\processed\\regions_clean.csv",
+    "summary": "C:\\Users\\沈少锋\\Documents\\deepseek-harness\\default-workspace\\EnterpriseKG\\data\\processed\\clean_summary.json",
+    "entities": "C:\\Users\\沈少锋\\Documents\\deepseek-harness\\default-workspace\\EnterpriseKG\\data\\processed\\entities.json",
+    "report": "C:\\Users\\沈少锋\\Documents\\deepseek-harness\\default-workspace\\EnterpriseKG\\data\\processed\\match_report.json",
+    "candidates": "C:\\Users\\沈少锋\\Documents\\deepseek-harness\\default-workspace\\EnterpriseKG\\data\\processed\\match_candidates.csv"
+  }
+}

@@ -1,0 +1,13 @@
+﻿EnterpriseKG - Enterprise Knowledge Graph
+Build date: 2026-11-04
+OS target: Windows 11 x64
+Python target: 3.13.x
+Neo4j: 5.26.32 (workspace-local embedded runtime)
+
+Quick start:
+1. install_python.bat
+2. start_neo4j.bat   (Docker-free local runtime)
+3. run_pipeline.bat
+4. start_app.bat      -> http://127.0.0.1:8501
+
+Read 交付说明.md and README.md first.

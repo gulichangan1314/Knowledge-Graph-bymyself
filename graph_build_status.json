@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-11-04T12:07:14+08:00",
+  "mode": "neo4j",
+  "neo4j": {
+    "connected": true,
+    "node_count": 34,
+    "uri": "bolt://127.0.0.1:7687",
+    "database": "neo4j"
+  },
+  "seed_path": "C:\\Users\\沈少锋\\Documents\\deepseek-harness\\default-workspace\\EnterpriseKG\\data\\output\\graph_seed.json",
+  "counts": {
+    "Company": 7,
+    "CompanyAlias": 3,
+    "Person": 6,
+    "ExternalOrganization": 4,
+    "Patent": 8,
+    "Region": 3,
+    "MergeCandidate": 3
+  },
+  "relationship_counts": {
+    "HAS_ALIAS": 3,
+    "HOLDS_SHARES": 10,
+    "LOCATED_IN": 7,
+    "OWNS_PATENT": 7,
+    "SUSPECTED_DUPLICATE": 3
+  }
+}

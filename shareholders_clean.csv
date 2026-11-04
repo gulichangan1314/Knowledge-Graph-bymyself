@@ -1,0 +1,11 @@
+﻿shareholder_id,company_name,shareholder_name,shareholder_type,shareholder_credit_code,ownership_percentage,investment_amount,investment_date,source_file,normalized_company_name,normalized_shareholder_name,date_valid,quality_flags
+S001,华夏天元科技有限公司,张伟,natural_person,,45.0,22500000.0,2016-03-18,shareholders.csv,华夏天元科技有限公司,张伟,True,
+S002,华夏天元科技有限公司,李娜,natural_person,,20.0,10000000.0,2016-03-18,shareholders.csv,华夏天元科技有限公司,李娜,True,
+S003,华夏天元科技有限公司,北京创新引擎投资有限公司,enterprise,91110105MA01TX6K8R,15.0,7500000.0,2018-05-10,shareholders.csv,华夏天元科技有限公司,北京创新引擎投资有限公司,True,
+S004,华夏天元科技（北京）有限公司,李强,natural_person,,60.0,18000000.0,2018-07-09,shareholders.csv,华夏天元科技(北京)有限公司,李强,True,
+S005,星海智能装备股份有限公司,王海,natural_person,,35.0,42000000.0,2012-05-21,shareholders.csv,星海智能装备股份有限公司,王海,True,
+S006,星海智能装备股份有限公司,苏州工业园区产业投资基金有限公司,enterprise,91320594MA01FN2D3X,10.0,12000000.0,2015-03-01,shareholders.csv,星海智能装备股份有限公司,苏州工业园区产业投资基金有限公司,True,
+S007,蓝海数据服务有限公司,刘洋,natural_person,,40.0,24000000.0,2015-09-14,shareholders.csv,蓝海数据服务有限公司,刘洋,True,
+S008,蓝海数据服务（深圳）有限公司,深圳前海数字资本有限公司,enterprise,91440300MA5FQ8R2TX,12.0,7200000.0,2019-08-08,shareholders.csv,蓝海数据服务(深圳)有限公司,深圳前海数字资本有限公司,True,
+S009,云岭新能源（深圳）集团有限公司,周明,natural_person,,30.0,30000000.0,2014-06-30,shareholders.csv,云岭新能源(深圳)集团有限公司,周明,True,
+S010,云岭新能源（深圳）集团有限公司,华南绿色能源投资有限公司,enterprise,91440101MA5G7Y9K2M,25.0,25000000.0,2020-02-20,shareholders.csv,云岭新能源(深圳)集团有限公司,华南绿色能源投资有限公司,True,

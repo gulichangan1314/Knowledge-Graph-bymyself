@@ -1,0 +1,937 @@
+{
+  "generated_at": "2026-11-04T12:09:05+08:00",
+  "companies": [
+    {
+      "company_id": "C001",
+      "name": "华夏天元科技有限公司",
+      "credit_code": "91110108MA01AB2C3D",
+      "legal_representative": "张伟",
+      "registered_capital": 5000.0,
+      "established_date": "2016-03-18",
+      "region_code": "110108",
+      "industry": "软件和信息技术服务业",
+      "status": "存续",
+      "old_name": "",
+      "source_file": "companies.csv",
+      "normalized_name": "华夏天元科技有限公司",
+      "normalized_old_name": "",
+      "credit_code_missing": false,
+      "credit_code_valid": true,
+      "credit_code_duplicate_count": 1,
+      "date_valid": true,
+      "region_exists": true,
+      "quality_flags": [],
+      "region_label": "北京市 / 北京市 / 海淀区"
+    },
+    {
+      "company_id": "C002",
+      "name": "华夏天元科技（北京）有限公司",
+      "credit_code": "91110108MA01AB4E5F",
+      "legal_representative": "李强",
+      "registered_capital": 3000.0,
+      "established_date": "2018-07-09",
+      "region_code": "110108",
+      "industry": "软件和信息技术服务业",
+      "status": "存续",
+      "old_name": "",
+      "source_file": "companies.csv",
+      "normalized_name": "华夏天元科技(北京)有限公司",
+      "normalized_old_name": "",
+      "credit_code_missing": false,
+      "credit_code_valid": true,
+      "credit_code_duplicate_count": 1,
+      "date_valid": true,
+      "region_exists": true,
+      "quality_flags": [],
+      "region_label": "北京市 / 北京市 / 海淀区"
+    },
+    {
+      "company_id": "C003",
+      "name": "星海智能装备股份有限公司",
+      "credit_code": "91320594MA02CD6G7H",
+      "legal_representative": "王海",
+      "registered_capital": 12000.0,
+      "established_date": "2012-05-21",
+      "region_code": "320594",
+      "industry": "智能装备制造",
+      "status": "存续",
+      "old_name": "星海智能装备有限公司",
+      "source_file": "companies.csv",
+      "normalized_name": "星海智能装备股份有限公司",
+      "normalized_old_name": "星海智能装备有限公司",
+      "credit_code_missing": false,
+      "credit_code_valid": true,
+      "credit_code_duplicate_count": 1,
+      "date_valid": true,
+      "region_exists": true,
+      "quality_flags": [],
+      "region_label": "江苏省 / 苏州市 / 苏州工业园区"
+    },
+    {
+      "company_id": "C004",
+      "name": "星海智能装备（苏州）股份有限公司",
+      "credit_code": "91320594MA02CD8J9K",
+      "legal_representative": "陈晨",
+      "registered_capital": 8000.0,
+      "established_date": "2019-11-02",
+      "region_code": "320594",
+      "industry": "智能装备制造",
+      "status": "存续",
+      "old_name": "",
+      "source_file": "companies.csv",
+      "normalized_name": "星海智能装备(苏州)股份有限公司",
+      "normalized_old_name": "",
+      "credit_code_missing": false,
+      "credit_code_valid": true,
+      "credit_code_duplicate_count": 1,
+      "date_valid": true,
+      "region_exists": true,
+      "quality_flags": [],
+      "region_label": "江苏省 / 苏州市 / 苏州工业园区"
+    },
+    {
+      "company_id": "C005",
+      "name": "蓝海数据服务有限公司",
+      "credit_code": "91440300MA5FQ1L2MN",
+      "legal_representative": "刘洋",
+      "registered_capital": 6000.0,
+      "established_date": "2015-09-14",
+      "region_code": "440305",
+      "industry": "数据服务",
+      "status": "存续",
+      "old_name": "",
+      "source_file": "companies.csv",
+      "normalized_name": "蓝海数据服务有限公司",
+      "normalized_old_name": "",
+      "credit_code_missing": false,
+      "credit_code_valid": true,
+      "credit_code_duplicate_count": 2,
+      "date_valid": true,
+      "region_exists": true,
+      "quality_flags": [
+        "duplicate_credit_code"
+      ],
+      "region_label": "广东省 / 深圳市 / 南山区"
+    },
+    {
+      "company_id": "C006",
+      "name": "蓝海数据服务（深圳）有限公司",
+      "credit_code": "91440300MA5FQ1L2MN",
+      "legal_representative": "刘洋",
+      "registered_capital": 6000.0,
+      "established_date": "2015-09-14",
+      "region_code": "440305",
+      "industry": "数据服务",
+      "status": "存续",
+      "old_name": "",
+      "source_file": "companies.csv",
+      "normalized_name": "蓝海数据服务(深圳)有限公司",
+      "normalized_old_name": "",
+      "credit_code_missing": false,
+      "credit_code_valid": true,
+      "credit_code_duplicate_count": 2,
+      "date_valid": true,
+      "region_exists": true,
+      "quality_flags": [
+        "duplicate_credit_code"
+      ],
+      "region_label": "广东省 / 深圳市 / 南山区"
+    },
+    {
+      "company_id": "C007",
+      "name": "云岭新能源（深圳）集团有限公司",
+      "credit_code": "91440300MA5FQ3N4PQ",
+      "legal_representative": "周明",
+      "registered_capital": 10000.0,
+      "established_date": "2014-06-30",
+      "region_code": "440305",
+      "industry": "新能源",
+      "status": "存续",
+      "old_name": "云岭新能源有限公司",
+      "source_file": "companies.csv",
+      "normalized_name": "云岭新能源(深圳)集团有限公司",
+      "normalized_old_name": "云岭新能源有限公司",
+      "credit_code_missing": false,
+      "credit_code_valid": true,
+      "credit_code_duplicate_count": 1,
+      "date_valid": true,
+      "region_exists": true,
+      "quality_flags": [],
+      "region_label": "广东省 / 深圳市 / 南山区"
+    },
+    {
+      "company_id": "C008",
+      "name": "云岭新能源（深圳）有限公司",
+      "credit_code": "",
+      "legal_representative": "周明",
+      "registered_capital": 8000.0,
+      "established_date": "2021-01-12",
+      "region_code": "440305",
+      "industry": "新能源",
+      "status": "存续",
+      "old_name": "",
+      "source_file": "companies.csv",
+      "normalized_name": "云岭新能源(深圳)有限公司",
+      "normalized_old_name": "",
+      "credit_code_missing": true,
+      "credit_code_valid": false,
+      "credit_code_duplicate_count": 0,
+      "date_valid": true,
+      "region_exists": true,
+      "quality_flags": [
+        "missing_credit_code"
+      ],
+      "region_label": "广东省 / 深圳市 / 南山区"
+    }
+  ],
+  "persons": [
+    {
+      "person_id": "PER-4E999891AE",
+      "name": "张伟",
+      "normalized_name": "张伟",
+      "source_ids": [
+        "S001"
+      ]
+    },
+    {
+      "person_id": "PER-5B23A21A85",
+      "name": "李娜",
+      "normalized_name": "李娜",
+      "source_ids": [
+        "S002"
+      ]
+    },
+    {
+      "person_id": "PER-84CD868287",
+      "name": "李强",
+      "normalized_name": "李强",
+      "source_ids": [
+        "S004"
+      ]
+    },
+    {
+      "person_id": "PER-E64B3C814D",
+      "name": "王海",
+      "normalized_name": "王海",
+      "source_ids": [
+        "S005"
+      ]
+    },
+    {
+      "person_id": "PER-278AEF0DCB",
+      "name": "刘洋",
+      "normalized_name": "刘洋",
+      "source_ids": [
+        "S007"
+      ]
+    },
+    {
+      "person_id": "PER-613228246C",
+      "name": "周明",
+      "normalized_name": "周明",
+      "source_ids": [
+        "S009"
+      ]
+    }
+  ],
+  "external_organizations": [
+    {
+      "organization_id": "ORG-786958F8E7",
+      "name": "北京创新引擎投资有限公司",
+      "normalized_name": "北京创新引擎投资有限公司",
+      "credit_code": "91110105MA01TX6K8R",
+      "source_ids": [
+        "S003"
+      ]
+    },
+    {
+      "organization_id": "ORG-8253553958",
+      "name": "苏州工业园区产业投资基金有限公司",
+      "normalized_name": "苏州工业园区产业投资基金有限公司",
+      "credit_code": "91320594MA01FN2D3X",
+      "source_ids": [
+        "S006"
+      ]
+    },
+    {
+      "organization_id": "ORG-0E54C8CC0E",
+      "name": "深圳前海数字资本有限公司",
+      "normalized_name": "深圳前海数字资本有限公司",
+      "credit_code": "91440300MA5FQ8R2TX",
+      "source_ids": [
+        "S008"
+      ]
+    },
+    {
+      "organization_id": "ORG-6E2C6D684E",
+      "name": "华南绿色能源投资有限公司",
+      "normalized_name": "华南绿色能源投资有限公司",
+      "credit_code": "91440101MA5G7Y9K2M",
+      "source_ids": [
+        "S010"
+      ]
+    }
+  ],
+  "patents": [
+    {
+      "patent_id": "P001",
+      "patent_name": "一种多源异构数据融合方法",
+      "patent_number": "CN202310000001.1",
+      "application_date": "2023-01-12",
+      "applicant_name": "华夏天元科技有限公司",
+      "patent_type": "发明",
+      "status": "授权",
+      "source_file": "patents.csv",
+      "normalized_applicant_name": "华夏天元科技有限公司",
+      "date_valid": true,
+      "quality_flags": []
+    },
+    {
+      "patent_id": "P002",
+      "patent_name": "面向企业知识图谱的实体对齐系统",
+      "patent_number": "CN202310000002.2",
+      "application_date": "2023-02-08",
+      "applicant_name": "华夏天元科技（北京）有限公司",
+      "patent_type": "发明",
+      "status": "实质审查",
+      "source_file": "patents.csv",
+      "normalized_applicant_name": "华夏天元科技(北京)有限公司",
+      "date_valid": true,
+      "quality_flags": []
+    },
+    {
+      "patent_id": "P003",
+      "patent_name": "一种工业机器人协同控制方法",
+      "patent_number": "CN202010000003.3",
+      "application_date": "2020-03-19",
+      "applicant_name": "星海智能装备有限公司",
+      "patent_type": "发明",
+      "status": "授权",
+      "source_file": "patents.csv",
+      "normalized_applicant_name": "星海智能装备有限公司",
+      "date_valid": true,
+      "quality_flags": []
+    },
+    {
+      "patent_id": "P004",
+      "patent_name": "智能装备远程运维平台",
+      "patent_number": "CN202120000004.4",
+      "application_date": "2021-04-06",
+      "applicant_name": "星海智能装备（苏州）股份有限公司",
+      "patent_type": "实用新型",
+      "status": "授权",
+      "source_file": "patents.csv",
+      "normalized_applicant_name": "星海智能装备(苏州)股份有限公司",
+      "date_valid": true,
+      "quality_flags": []
+    },
+    {
+      "patent_id": "P005",
+      "patent_name": "基于知识图谱的数据资产发现方法",
+      "patent_number": "CN202210000005.5",
+      "application_date": "2022-05-11",
+      "applicant_name": "蓝海数据服务（深圳）有限公司",
+      "patent_type": "发明",
+      "status": "授权",
+      "source_file": "patents.csv",
+      "normalized_applicant_name": "蓝海数据服务(深圳)有限公司",
+      "date_valid": true,
+      "quality_flags": []
+    },
+    {
+      "patent_id": "P006",
+      "patent_name": "一种分布式数据脱敏方法",
+      "patent_number": "CN201910000006.6",
+      "application_date": "2019-06-25",
+      "applicant_name": "蓝海数据服务有限公司",
+      "patent_type": "发明",
+      "status": "授权",
+      "source_file": "patents.csv",
+      "normalized_applicant_name": "蓝海数据服务有限公司",
+      "date_valid": true,
+      "quality_flags": []
+    },
+    {
+      "patent_id": "P007",
+      "patent_name": "光伏储能协同调度方法",
+      "patent_number": "CN202310000007.7",
+      "application_date": "2023-07-14",
+      "applicant_name": "云岭新能源有限公司",
+      "patent_type": "发明",
+      "status": "实质审查",
+      "source_file": "patents.csv",
+      "normalized_applicant_name": "云岭新能源有限公司",
+      "date_valid": true,
+      "quality_flags": []
+    },
+    {
+      "patent_id": "P008",
+      "patent_name": "一种园区级能源负荷预测方法",
+      "patent_number": "CN202410000008.8",
+      "application_date": "2024-02-29",
+      "applicant_name": "云岭新能源（深圳）有限公司",
+      "patent_type": "发明",
+      "status": "公开",
+      "source_file": "patents.csv",
+      "normalized_applicant_name": "云岭新能源(深圳)有限公司",
+      "date_valid": true,
+      "quality_flags": []
+    }
+  ],
+  "regions": [
+    {
+      "region_code": "110108",
+      "province": "北京市",
+      "city": "北京市",
+      "district": "海淀区",
+      "source_file": "regions.csv",
+      "region_label": "北京市 / 北京市 / 海淀区"
+    },
+    {
+      "region_code": "320594",
+      "province": "江苏省",
+      "city": "苏州市",
+      "district": "苏州工业园区",
+      "source_file": "regions.csv",
+      "region_label": "江苏省 / 苏州市 / 苏州工业园区"
+    },
+    {
+      "region_code": "440305",
+      "province": "广东省",
+      "city": "深圳市",
+      "district": "南山区",
+      "source_file": "regions.csv",
+      "region_label": "广东省 / 深圳市 / 南山区"
+    }
+  ],
+  "mentions": [
+    {
+      "mention_id": "MSH-S001-TARGET",
+      "source_type": "shareholder_target",
+      "source_id": "S001",
+      "name": "华夏天元科技有限公司",
+      "normalized_name": "华夏天元科技有限公司",
+      "credit_code": "",
+      "context": {
+        "company_name": "华夏天元科技有限公司",
+        "shareholder_name": "张伟",
+        "ownership_percentage": 45.0
+      }
+    },
+    {
+      "mention_id": "MSH-S002-TARGET",
+      "source_type": "shareholder_target",
+      "source_id": "S002",
+      "name": "华夏天元科技有限公司",
+      "normalized_name": "华夏天元科技有限公司",
+      "credit_code": "",
+      "context": {
+        "company_name": "华夏天元科技有限公司",
+        "shareholder_name": "李娜",
+        "ownership_percentage": 20.0
+      }
+    },
+    {
+      "mention_id": "MSH-S003-TARGET",
+      "source_type": "shareholder_target",
+      "source_id": "S003",
+      "name": "华夏天元科技有限公司",
+      "normalized_name": "华夏天元科技有限公司",
+      "credit_code": "",
+      "context": {
+        "company_name": "华夏天元科技有限公司",
+        "shareholder_name": "北京创新引擎投资有限公司",
+        "ownership_percentage": 15.0
+      }
+    },
+    {
+      "mention_id": "MSH-S003-ORG",
+      "source_type": "shareholder_org",
+      "source_id": "S003",
+      "name": "北京创新引擎投资有限公司",
+      "normalized_name": "北京创新引擎投资有限公司",
+      "credit_code": "91110105MA01TX6K8R",
+      "context": {
+        "company_name": "华夏天元科技有限公司",
+        "ownership_percentage": 15.0
+      }
+    },
+    {
+      "mention_id": "MSH-S004-TARGET",
+      "source_type": "shareholder_target",
+      "source_id": "S004",
+      "name": "华夏天元科技（北京）有限公司",
+      "normalized_name": "华夏天元科技(北京)有限公司",
+      "credit_code": "",
+      "context": {
+        "company_name": "华夏天元科技（北京）有限公司",
+        "shareholder_name": "李强",
+        "ownership_percentage": 60.0
+      }
+    },
+    {
+      "mention_id": "MSH-S005-TARGET",
+      "source_type": "shareholder_target",
+      "source_id": "S005",
+      "name": "星海智能装备股份有限公司",
+      "normalized_name": "星海智能装备股份有限公司",
+      "credit_code": "",
+      "context": {
+        "company_name": "星海智能装备股份有限公司",
+        "shareholder_name": "王海",
+        "ownership_percentage": 35.0
+      }
+    },
+    {
+      "mention_id": "MSH-S006-TARGET",
+      "source_type": "shareholder_target",
+      "source_id": "S006",
+      "name": "星海智能装备股份有限公司",
+      "normalized_name": "星海智能装备股份有限公司",
+      "credit_code": "",
+      "context": {
+        "company_name": "星海智能装备股份有限公司",
+        "shareholder_name": "苏州工业园区产业投资基金有限公司",
+        "ownership_percentage": 10.0
+      }
+    },
+    {
+      "mention_id": "MSH-S006-ORG",
+      "source_type": "shareholder_org",
+      "source_id": "S006",
+      "name": "苏州工业园区产业投资基金有限公司",
+      "normalized_name": "苏州工业园区产业投资基金有限公司",
+      "credit_code": "91320594MA01FN2D3X",
+      "context": {
+        "company_name": "星海智能装备股份有限公司",
+        "ownership_percentage": 10.0
+      }
+    },
+    {
+      "mention_id": "MSH-S007-TARGET",
+      "source_type": "shareholder_target",
+      "source_id": "S007",
+      "name": "蓝海数据服务有限公司",
+      "normalized_name": "蓝海数据服务有限公司",
+      "credit_code": "",
+      "context": {
+        "company_name": "蓝海数据服务有限公司",
+        "shareholder_name": "刘洋",
+        "ownership_percentage": 40.0
+      }
+    },
+    {
+      "mention_id": "MSH-S008-TARGET",
+      "source_type": "shareholder_target",
+      "source_id": "S008",
+      "name": "蓝海数据服务（深圳）有限公司",
+      "normalized_name": "蓝海数据服务(深圳)有限公司",
+      "credit_code": "",
+      "context": {
+        "company_name": "蓝海数据服务（深圳）有限公司",
+        "shareholder_name": "深圳前海数字资本有限公司",
+        "ownership_percentage": 12.0
+      }
+    },
+    {
+      "mention_id": "MSH-S008-ORG",
+      "source_type": "shareholder_org",
+      "source_id": "S008",
+      "name": "深圳前海数字资本有限公司",
+      "normalized_name": "深圳前海数字资本有限公司",
+      "credit_code": "91440300MA5FQ8R2TX",
+      "context": {
+        "company_name": "蓝海数据服务（深圳）有限公司",
+        "ownership_percentage": 12.0
+      }
+    },
+    {
+      "mention_id": "MSH-S009-TARGET",
+      "source_type": "shareholder_target",
+      "source_id": "S009",
+      "name": "云岭新能源（深圳）集团有限公司",
+      "normalized_name": "云岭新能源(深圳)集团有限公司",
+      "credit_code": "",
+      "context": {
+        "company_name": "云岭新能源（深圳）集团有限公司",
+        "shareholder_name": "周明",
+        "ownership_percentage": 30.0
+      }
+    },
+    {
+      "mention_id": "MSH-S010-TARGET",
+      "source_type": "shareholder_target",
+      "source_id": "S010",
+      "name": "云岭新能源（深圳）集团有限公司",
+      "normalized_name": "云岭新能源(深圳)集团有限公司",
+      "credit_code": "",
+      "context": {
+        "company_name": "云岭新能源（深圳）集团有限公司",
+        "shareholder_name": "华南绿色能源投资有限公司",
+        "ownership_percentage": 25.0
+      }
+    },
+    {
+      "mention_id": "MSH-S010-ORG",
+      "source_type": "shareholder_org",
+      "source_id": "S010",
+      "name": "华南绿色能源投资有限公司",
+      "normalized_name": "华南绿色能源投资有限公司",
+      "credit_code": "91440101MA5G7Y9K2M",
+      "context": {
+        "company_name": "云岭新能源（深圳）集团有限公司",
+        "ownership_percentage": 25.0
+      }
+    },
+    {
+      "mention_id": "MPAT-P001",
+      "source_type": "patent_applicant",
+      "source_id": "P001",
+      "name": "华夏天元科技有限公司",
+      "normalized_name": "华夏天元科技有限公司",
+      "credit_code": "",
+      "context": {
+        "patent_name": "一种多源异构数据融合方法",
+        "patent_number": "CN202310000001.1",
+        "application_date": "2023-01-12"
+      }
+    },
+    {
+      "mention_id": "MPAT-P002",
+      "source_type": "patent_applicant",
+      "source_id": "P002",
+      "name": "华夏天元科技（北京）有限公司",
+      "normalized_name": "华夏天元科技(北京)有限公司",
+      "credit_code": "",
+      "context": {
+        "patent_name": "面向企业知识图谱的实体对齐系统",
+        "patent_number": "CN202310000002.2",
+        "application_date": "2023-02-08"
+      }
+    },
+    {
+      "mention_id": "MPAT-P003",
+      "source_type": "patent_applicant",
+      "source_id": "P003",
+      "name": "星海智能装备有限公司",
+      "normalized_name": "星海智能装备有限公司",
+      "credit_code": "",
+      "context": {
+        "patent_name": "一种工业机器人协同控制方法",
+        "patent_number": "CN202010000003.3",
+        "application_date": "2020-03-19"
+      }
+    },
+    {
+      "mention_id": "MPAT-P004",
+      "source_type": "patent_applicant",
+      "source_id": "P004",
+      "name": "星海智能装备（苏州）股份有限公司",
+      "normalized_name": "星海智能装备(苏州)股份有限公司",
+      "credit_code": "",
+      "context": {
+        "patent_name": "智能装备远程运维平台",
+        "patent_number": "CN202120000004.4",
+        "application_date": "2021-04-06"
+      }
+    },
+    {
+      "mention_id": "MPAT-P005",
+      "source_type": "patent_applicant",
+      "source_id": "P005",
+      "name": "蓝海数据服务（深圳）有限公司",
+      "normalized_name": "蓝海数据服务(深圳)有限公司",
+      "credit_code": "",
+      "context": {
+        "patent_name": "基于知识图谱的数据资产发现方法",
+        "patent_number": "CN202210000005.5",
+        "application_date": "2022-05-11"
+      }
+    },
+    {
+      "mention_id": "MPAT-P006",
+      "source_type": "patent_applicant",
+      "source_id": "P006",
+      "name": "蓝海数据服务有限公司",
+      "normalized_name": "蓝海数据服务有限公司",
+      "credit_code": "",
+      "context": {
+        "patent_name": "一种分布式数据脱敏方法",
+        "patent_number": "CN201910000006.6",
+        "application_date": "2019-06-25"
+      }
+    },
+    {
+      "mention_id": "MPAT-P007",
+      "source_type": "patent_applicant",
+      "source_id": "P007",
+      "name": "云岭新能源有限公司",
+      "normalized_name": "云岭新能源有限公司",
+      "credit_code": "",
+      "context": {
+        "patent_name": "光伏储能协同调度方法",
+        "patent_number": "CN202310000007.7",
+        "application_date": "2023-07-14"
+      }
+    },
+    {
+      "mention_id": "MPAT-P008",
+      "source_type": "patent_applicant",
+      "source_id": "P008",
+      "name": "云岭新能源（深圳）有限公司",
+      "normalized_name": "云岭新能源(深圳)有限公司",
+      "credit_code": "",
+      "context": {
+        "patent_name": "一种园区级能源负荷预测方法",
+        "patent_number": "CN202410000008.8",
+        "application_date": "2024-02-29"
+      }
+    }
+  ],
+  "relationships": {
+    "shareholding": [
+      {
+        "shareholder_id": "S001",
+        "from_type": "natural_person",
+        "from_label": "Person",
+        "from_id": "PER-4E999891AE",
+        "from_name": "张伟",
+        "to_company_name": "华夏天元科技有限公司",
+        "to_company_credit_code": "",
+        "target_mention_id": "MSH-S001-TARGET",
+        "holder_mention_id": "",
+        "percentage": 45.0,
+        "amount": 22500000.0,
+        "date": "2016-03-18"
+      },
+      {
+        "shareholder_id": "S002",
+        "from_type": "natural_person",
+        "from_label": "Person",
+        "from_id": "PER-5B23A21A85",
+        "from_name": "李娜",
+        "to_company_name": "华夏天元科技有限公司",
+        "to_company_credit_code": "",
+        "target_mention_id": "MSH-S002-TARGET",
+        "holder_mention_id": "",
+        "percentage": 20.0,
+        "amount": 10000000.0,
+        "date": "2016-03-18"
+      },
+      {
+        "shareholder_id": "S003",
+        "from_type": "enterprise",
+        "from_label": "ExternalOrganization",
+        "from_id": "ORG-786958F8E7",
+        "from_name": "北京创新引擎投资有限公司",
+        "to_company_name": "华夏天元科技有限公司",
+        "to_company_credit_code": "",
+        "target_mention_id": "MSH-S003-TARGET",
+        "holder_mention_id": "MSH-S003-ORG",
+        "percentage": 15.0,
+        "amount": 7500000.0,
+        "date": "2018-05-10"
+      },
+      {
+        "shareholder_id": "S004",
+        "from_type": "natural_person",
+        "from_label": "Person",
+        "from_id": "PER-84CD868287",
+        "from_name": "李强",
+        "to_company_name": "华夏天元科技（北京）有限公司",
+        "to_company_credit_code": "",
+        "target_mention_id": "MSH-S004-TARGET",
+        "holder_mention_id": "",
+        "percentage": 60.0,
+        "amount": 18000000.0,
+        "date": "2018-07-09"
+      },
+      {
+        "shareholder_id": "S005",
+        "from_type": "natural_person",
+        "from_label": "Person",
+        "from_id": "PER-E64B3C814D",
+        "from_name": "王海",
+        "to_company_name": "星海智能装备股份有限公司",
+        "to_company_credit_code": "",
+        "target_mention_id": "MSH-S005-TARGET",
+        "holder_mention_id": "",
+        "percentage": 35.0,
+        "amount": 42000000.0,
+        "date": "2012-05-21"
+      },
+      {
+        "shareholder_id": "S006",
+        "from_type": "enterprise",
+        "from_label": "ExternalOrganization",
+        "from_id": "ORG-8253553958",
+        "from_name": "苏州工业园区产业投资基金有限公司",
+        "to_company_name": "星海智能装备股份有限公司",
+        "to_company_credit_code": "",
+        "target_mention_id": "MSH-S006-TARGET",
+        "holder_mention_id": "MSH-S006-ORG",
+        "percentage": 10.0,
+        "amount": 12000000.0,
+        "date": "2015-03-01"
+      },
+      {
+        "shareholder_id": "S007",
+        "from_type": "natural_person",
+        "from_label": "Person",
+        "from_id": "PER-278AEF0DCB",
+        "from_name": "刘洋",
+        "to_company_name": "蓝海数据服务有限公司",
+        "to_company_credit_code": "",
+        "target_mention_id": "MSH-S007-TARGET",
+        "holder_mention_id": "",
+        "percentage": 40.0,
+        "amount": 24000000.0,
+        "date": "2015-09-14"
+      },
+      {
+        "shareholder_id": "S008",
+        "from_type": "enterprise",
+        "from_label": "ExternalOrganization",
+        "from_id": "ORG-0E54C8CC0E",
+        "from_name": "深圳前海数字资本有限公司",
+        "to_company_name": "蓝海数据服务（深圳）有限公司",
+        "to_company_credit_code": "",
+        "target_mention_id": "MSH-S008-TARGET",
+        "holder_mention_id": "MSH-S008-ORG",
+        "percentage": 12.0,
+        "amount": 7200000.0,
+        "date": "2019-08-08"
+      },
+      {
+        "shareholder_id": "S009",
+        "from_type": "natural_person",
+        "from_label": "Person",
+        "from_id": "PER-613228246C",
+        "from_name": "周明",
+        "to_company_name": "云岭新能源（深圳）集团有限公司",
+        "to_company_credit_code": "",
+        "target_mention_id": "MSH-S009-TARGET",
+        "holder_mention_id": "",
+        "percentage": 30.0,
+        "amount": 30000000.0,
+        "date": "2014-06-30"
+      },
+      {
+        "shareholder_id": "S010",
+        "from_type": "enterprise",
+        "from_label": "ExternalOrganization",
+        "from_id": "ORG-6E2C6D684E",
+        "from_name": "华南绿色能源投资有限公司",
+        "to_company_name": "云岭新能源（深圳）集团有限公司",
+        "to_company_credit_code": "",
+        "target_mention_id": "MSH-S010-TARGET",
+        "holder_mention_id": "MSH-S010-ORG",
+        "percentage": 25.0,
+        "amount": 25000000.0,
+        "date": "2020-02-20"
+      }
+    ],
+    "patent_ownership": [
+      {
+        "patent_id": "P001",
+        "applicant_name": "华夏天元科技有限公司",
+        "mention_id": "MPAT-P001",
+        "application_date": "2023-01-12"
+      },
+      {
+        "patent_id": "P002",
+        "applicant_name": "华夏天元科技（北京）有限公司",
+        "mention_id": "MPAT-P002",
+        "application_date": "2023-02-08"
+      },
+      {
+        "patent_id": "P003",
+        "applicant_name": "星海智能装备有限公司",
+        "mention_id": "MPAT-P003",
+        "application_date": "2020-03-19"
+      },
+      {
+        "patent_id": "P004",
+        "applicant_name": "星海智能装备（苏州）股份有限公司",
+        "mention_id": "MPAT-P004",
+        "application_date": "2021-04-06"
+      },
+      {
+        "patent_id": "P005",
+        "applicant_name": "蓝海数据服务（深圳）有限公司",
+        "mention_id": "MPAT-P005",
+        "application_date": "2022-05-11"
+      },
+      {
+        "patent_id": "P006",
+        "applicant_name": "蓝海数据服务有限公司",
+        "mention_id": "MPAT-P006",
+        "application_date": "2019-06-25"
+      },
+      {
+        "patent_id": "P007",
+        "applicant_name": "云岭新能源有限公司",
+        "mention_id": "MPAT-P007",
+        "application_date": "2023-07-14"
+      },
+      {
+        "patent_id": "P008",
+        "applicant_name": "云岭新能源（深圳）有限公司",
+        "mention_id": "MPAT-P008",
+        "application_date": "2024-02-29"
+      }
+    ],
+    "company_region": [
+      {
+        "company_id": "C001",
+        "region_code": "110108",
+        "region_label": "北京市 / 北京市 / 海淀区"
+      },
+      {
+        "company_id": "C002",
+        "region_code": "110108",
+        "region_label": "北京市 / 北京市 / 海淀区"
+      },
+      {
+        "company_id": "C003",
+        "region_code": "320594",
+        "region_label": "江苏省 / 苏州市 / 苏州工业园区"
+      },
+      {
+        "company_id": "C004",
+        "region_code": "320594",
+        "region_label": "江苏省 / 苏州市 / 苏州工业园区"
+      },
+      {
+        "company_id": "C005",
+        "region_code": "440305",
+        "region_label": "广东省 / 深圳市 / 南山区"
+      },
+      {
+        "company_id": "C006",
+        "region_code": "440305",
+        "region_label": "广东省 / 深圳市 / 南山区"
+      },
+      {
+        "company_id": "C007",
+        "region_code": "440305",
+        "region_label": "广东省 / 深圳市 / 南山区"
+      },
+      {
+        "company_id": "C008",
+        "region_code": "440305",
+        "region_label": "广东省 / 深圳市 / 南山区"
+      }
+    ]
+  },
+  "stats": {
+    "companies": 8,
+    "persons": 6,
+    "external_organizations": 4,
+    "patents": 8,
+    "regions": 3,
+    "mentions": 22,
+    "shareholding_facts": 10,
+    "patent_facts": 8
+  }
+}

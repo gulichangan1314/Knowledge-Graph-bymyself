@@ -1,0 +1,312 @@
+{
+  "generated_at": "2026-11-04T12:09:04+08:00",
+  "overall_status": "PASS",
+  "summary": {
+    "total": 12,
+    "pass": 12,
+    "warn": 0,
+    "fail": 0
+  },
+  "checks": [
+    {
+      "name": "原始数据行数与契约",
+      "status": "PASS",
+      "detail": "companies=8/8, shareholders=10/10, patents=8/8, regions=3/3",
+      "metrics": {
+        "counts": {
+          "companies": 8,
+          "shareholders": 10,
+          "patents": 8,
+          "regions": 3
+        }
+      }
+    },
+    {
+      "name": "主键唯一性",
+      "status": "PASS",
+      "detail": "所有主键唯一",
+      "metrics": {
+        "companies": 0,
+        "shareholders": 0,
+        "patents": 0,
+        "regions": 0
+      }
+    },
+    {
+      "name": "信用代码完整性",
+      "status": "PASS",
+      "detail": "缺失 1 条（预期 1），格式非法 0 条",
+      "metrics": {
+        "missing_company_ids": [
+          "C008"
+        ],
+        "invalid_company_ids": []
+      }
+    },
+    {
+      "name": "近名但代码不同的冲突识别",
+      "status": "PASS",
+      "detail": "识别到 2 对；关键样例 ['PAIR-C001-C002', 'PAIR-C003-C004'] 全部命中",
+      "metrics": {
+        "pairs": [
+          "PAIR-C001-C002",
+          "PAIR-C003-C004"
+        ]
+      }
+    },
+    {
+      "name": "同代码不同名称自动归并",
+      "status": "PASS",
+      "detail": "同代码名称变体别名 1 条；C006→C005 已建立",
+      "metrics": {
+        "alias_pairs": [
+          [
+            "C005",
+            "C006"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "曾用名对齐",
+      "status": "PASS",
+      "detail": "P003→C003、P007→C007 均命中",
+      "metrics": {
+        "P003": {
+          "mention_id": "MPAT-P003",
+          "source_type": "patent_applicant",
+          "source_id": "P003",
+          "name": "星海智能装备有限公司",
+          "company_id": "C003",
+          "company_name": "星海智能装备股份有限公司",
+          "score": 98.0,
+          "method": "registered_old_name"
+        },
+        "P007": {
+          "mention_id": "MPAT-P007",
+          "source_type": "patent_applicant",
+          "source_id": "P007",
+          "name": "云岭新能源有限公司",
+          "company_id": "C007",
+          "company_name": "云岭新能源（深圳）集团有限公司",
+          "score": 98.0,
+          "method": "registered_old_name"
+        }
+      }
+    },
+    {
+      "name": "缺失代码实体保守处理",
+      "status": "PASS",
+      "detail": "P008（云岭新能源（深圳）有限公司）进入人工复核",
+      "metrics": {
+        "P008": {
+          "mention_id": "MPAT-P008",
+          "source_type": "patent_applicant",
+          "source_id": "P008",
+          "name": "云岭新能源（深圳）有限公司",
+          "company_id": "C008",
+          "company_name": "云岭新能源（深圳）有限公司",
+          "score": 91.9,
+          "method": "exact_name",
+          "conflicts": [
+            "missing_credit_code"
+          ],
+          "reasons": [
+            "企业名称标准化后完全一致",
+            "目标企业缺失统一社会信用代码，只能进入人工复核"
+          ]
+        }
+      }
+    },
+    {
+      "name": "代码冲突硬闸门",
+      "status": "PASS",
+      "detail": "不存在跨不同信用代码的自动合并",
+      "metrics": {
+        "unsafe_candidates": []
+      }
+    },
+    {
+      "name": "规范化企业数量",
+      "status": "PASS",
+      "detail": "规范化企业 7 家（预期 7）",
+      "metrics": {
+        "canonical_ids": [
+          "C001",
+          "C002",
+          "C003",
+          "C004",
+          "C005",
+          "C007",
+          "C008"
+        ]
+      }
+    },
+    {
+      "name": "股权比例合计",
+      "status": "PASS",
+      "detail": "已核对 5 家企业，均不超过 100%",
+      "metrics": {
+        "percentage_by_company": {
+          "C001": 80.0,
+          "C002": 60.0,
+          "C003": 45.0,
+          "C005": 52.0,
+          "C007": 55.0
+        },
+        "over_limit": {}
+      }
+    },
+    {
+      "name": "离线图谱种子完整性",
+      "status": "PASS",
+      "detail": "Company=7, Patent=8, 关系={'HAS_ALIAS': 3, 'HOLDS_SHARES': 10, 'LOCATED_IN': 7, 'OWNS_PATENT': 7, 'SUSPECTED_DUPLICATE': 3}, 悬空端点=0",
+      "metrics": {
+        "node_counts": {
+          "Company": 7,
+          "CompanyAlias": 3,
+          "Person": 6,
+          "ExternalOrganization": 4,
+          "Patent": 8,
+          "Region": 3,
+          "MergeCandidate": 3
+        },
+        "relationship_counts": {
+          "HAS_ALIAS": 3,
+          "HOLDS_SHARES": 10,
+          "LOCATED_IN": 7,
+          "OWNS_PATENT": 7,
+          "SUSPECTED_DUPLICATE": 3
+        },
+        "missing_endpoints": []
+      }
+    },
+    {
+      "name": "Neo4j 图数据库校验",
+      "status": "PASS",
+      "detail": "Company 节点 7/7，疑似重复边 3",
+      "metrics": {
+        "connected": true,
+        "labels": {
+          "Company": 7,
+          "CompanyAlias": 3,
+          "Person": 6,
+          "ExternalOrganization": 4,
+          "Patent": 8,
+          "Region": 3,
+          "MergeCandidate": 3
+        },
+        "suspected_duplicate_edges": 3
+      }
+    }
+  ],
+  "suspected_unmerged_pairs": [
+    {
+      "candidate_id": "PAIR-C007-C008",
+      "candidate_type": "company_pair",
+      "left_id": "C007",
+      "left_name": "云岭新能源（深圳）集团有限公司",
+      "left_credit_code": "91440300MA5FQ3N4PQ",
+      "right_id": "C008",
+      "right_name": "云岭新能源（深圳）有限公司",
+      "right_credit_code": "",
+      "name_score": 92.86,
+      "context_score": 100.0,
+      "score": 94.86,
+      "confidence_tier": "high",
+      "decision": "review",
+      "method": "context_weighted_rapidfuzz",
+      "conflicts": [
+        "missing_credit_code"
+      ],
+      "reasons": [
+        "一方缺失统一社会信用代码，最高只能进入人工复核",
+        "法定代表人也相同，需要排查母子公司或重复登记",
+        "登记地区一致",
+        "行业一致"
+      ],
+      "source_type": "company_record",
+      "source_id": "C007|C008",
+      "canonical_id": "",
+      "conflicts_text": "missing_credit_code",
+      "reasons_text": "一方缺失统一社会信用代码，最高只能进入人工复核；法定代表人也相同，需要排查母子公司或重复登记；登记地区一致；行业一致"
+    },
+    {
+      "candidate_id": "PAIR-C003-C004",
+      "candidate_type": "company_pair",
+      "left_id": "C003",
+      "left_name": "星海智能装备股份有限公司",
+      "left_credit_code": "91320594MA02CD6G7H",
+      "right_id": "C004",
+      "right_name": "星海智能装备（苏州）股份有限公司",
+      "right_credit_code": "91320594MA02CD8J9K",
+      "name_score": 85.71,
+      "context_score": 71.43,
+      "score": 81.71,
+      "confidence_tier": "medium",
+      "decision": "review",
+      "method": "context_weighted_rapidfuzz",
+      "conflicts": [
+        "different_credit_code"
+      ],
+      "reasons": [
+        "统一社会信用代码不一致（91320594MA02CD6G7H ≠ 91320594MA02CD8J9K），禁止自动合并",
+        "登记地区一致",
+        "行业一致"
+      ],
+      "source_type": "company_record",
+      "source_id": "C003|C004",
+      "canonical_id": "",
+      "conflicts_text": "different_credit_code",
+      "reasons_text": "统一社会信用代码不一致（91320594MA02CD6G7H ≠ 91320594MA02CD8J9K），禁止自动合并；登记地区一致；行业一致"
+    },
+    {
+      "candidate_id": "PAIR-C001-C002",
+      "candidate_type": "company_pair",
+      "left_id": "C001",
+      "left_name": "华夏天元科技有限公司",
+      "left_credit_code": "91110108MA01AB2C3D",
+      "right_id": "C002",
+      "right_name": "华夏天元科技（北京）有限公司",
+      "right_credit_code": "91110108MA01AB4E5F",
+      "name_score": 83.33,
+      "context_score": 71.43,
+      "score": 80.0,
+      "confidence_tier": "medium",
+      "decision": "review",
+      "method": "context_weighted_rapidfuzz",
+      "conflicts": [
+        "different_credit_code"
+      ],
+      "reasons": [
+        "统一社会信用代码不一致（91110108MA01AB2C3D ≠ 91110108MA01AB4E5F），禁止自动合并",
+        "登记地区一致",
+        "行业一致"
+      ],
+      "source_type": "company_record",
+      "source_id": "C001|C002",
+      "canonical_id": "",
+      "conflicts_text": "different_credit_code",
+      "reasons_text": "统一社会信用代码不一致（91110108MA01AB2C3D ≠ 91110108MA01AB4E5F），禁止自动合并；登记地区一致；行业一致"
+    }
+  ],
+  "matching_stats": {
+    "raw_company_records": 8,
+    "canonical_companies": 7,
+    "merged_variant_records": 1,
+    "distinct_credit_code_groups": 6,
+    "aliases": 3,
+    "suspicious_company_pairs": 3,
+    "auto_merged_mentions": 17,
+    "review_mentions": 1,
+    "unresolved_mentions": 4
+  },
+  "seed_path": "C:\\Users\\沈少锋\\Documents\\deepseek-harness\\default-workspace\\EnterpriseKG\\data\\output\\graph_seed.json",
+  "ownership_percentages": {
+    "C001": 80.0,
+    "C002": 60.0,
+    "C003": 45.0,
+    "C005": 52.0,
+    "C007": 55.0
+  }
+}

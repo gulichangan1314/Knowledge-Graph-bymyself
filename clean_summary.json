@@ -1,0 +1,21 @@
+{
+  "generated_at": "2026-11-04T12:09:05+08:00",
+  "counts": {
+    "companies": 8,
+    "shareholders": 10,
+    "patents": 8,
+    "regions": 3
+  },
+  "flags": {
+    "companies": 3,
+    "shareholders": 0,
+    "patents": 0,
+    "regions": 0
+  },
+  "files": {
+    "companies": "C:\\Users\\沈少锋\\Documents\\deepseek-harness\\default-workspace\\EnterpriseKG\\data\\processed\\companies_clean.csv",
+    "shareholders": "C:\\Users\\沈少锋\\Documents\\deepseek-harness\\default-workspace\\EnterpriseKG\\data\\processed\\shareholders_clean.csv",
+    "patents": "C:\\Users\\沈少锋\\Documents\\deepseek-harness\\default-workspace\\EnterpriseKG\\data\\processed\\patents_clean.csv",
+    "regions": "C:\\Users\\沈少锋\\Documents\\deepseek-harness\\default-workspace\\EnterpriseKG\\data\\processed\\regions_clean.csv"
+  }
+}
